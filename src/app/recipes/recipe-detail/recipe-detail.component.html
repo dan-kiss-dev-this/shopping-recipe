@@ -4,6 +4,7 @@
 </div>
 <div class="row">
   <div class="col-xs-12">
+    <img src="{{recipe.imagePath}}" />
     <h1>{{ recipe.name }}</h1>
   </div>
 </div>
@@ -14,9 +15,9 @@
         Manage Recipe <span class="caret"></span>
       </button>
       <ul class="dropdown-menu">
-        <li><a  style="cursor: pointer;" (click)="onAddToShoppingList()">Add To Shopping List</a></li>
-        <li><a >Edit Recipe</a></li>
-        <li><a >Delete Recipe</a></li>
+        <li><a style="cursor: pointer;" (click)="onAddToShoppingList()">Add To Shopping List</a></li>
+        <li><a>Edit Recipe</a></li>
+        <li><a>Delete Recipe</a></li>
       </ul>
     </div>
   </div>
